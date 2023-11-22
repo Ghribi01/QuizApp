@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#20a3fb"
+    >
+
+    <ImageView
+        android:layout_width="343dp"
+        android:layout_height="438dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/quiz"
+        android:id="@+id/logo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:text="Ghribi's Quiz App"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
